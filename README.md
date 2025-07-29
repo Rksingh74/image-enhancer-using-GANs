@@ -14,7 +14,7 @@ Download the Enhanced Image and Final Image.
 image-enhancement-srgan/
 │
 ├── model/                           # Folder for pre-trained model (.pt file)
-│   └── pre_trained_model_4488.pt    # SRGAN model (add your .pt file here)
+│   └── srgan_model.pt    # SRGAN model (add your pretrained model .pt file here)
 │
 ├── srgan_model.py                   # SRGAN Generator model definition
 ├── app.py                           # Main Streamlit application
